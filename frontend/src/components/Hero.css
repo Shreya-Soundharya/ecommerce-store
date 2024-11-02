@@ -1,0 +1,22 @@
+.hero {
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+}
+
+.hero .flex {
+    margin: 0; /* Remove margin from flex container */
+}
+
+.hero .flex div {
+    padding: 0; /* Remove padding from child divs */
+}
+
+/* Adjust the image */
+.hero img {
+    object-fit: scale-down; /* Change to cover for better fill */
+    max-width: 55%; /* Ensure it doesn't exceed parent width */
+}
+
+.hero-right{
+    background-color: rgb(249, 161, 191);
+}
